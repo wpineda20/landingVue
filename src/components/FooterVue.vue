@@ -13,18 +13,11 @@
               Ministerio de cultura
             </a>
           </div>
-          <div
-            class="
-              col-12 col-xs-12 col-sm-12
-              text-center
-              my-auto
-              col-md-6
-              text-center
-            "
-          >
+          <div class="col-12 col-xs-12 col-sm-12 text-center my-auto col-md-6">
             <div class="mya">
               <v-img
-                :src="require('../assets/logos/Logo_GOES_horizontal_L.svg')"
+                :src="require('../assets/logos/Logo_GOES_horizontal_D.svg')"
+                style="width: 400px; margin-left: 50px"
               />
             </div>
           </div>

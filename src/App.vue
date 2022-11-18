@@ -16,9 +16,7 @@ export default {
     HomeVue,
   },
 
-  data: () => ({
-    //
-  }),
+  data: () => ({}),
 };
 </script>
 <style lang="scss">

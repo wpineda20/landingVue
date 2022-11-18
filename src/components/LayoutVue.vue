@@ -52,61 +52,42 @@
           <div class="container-fluid">
             <div class="col-6 col-sm-12 col-md-12">
               <div class="row p-0 m-0">
-                <div class="col-6 col-md-1 menu my-auto">
+                <div class="col-6 col-md-1 menu my-auto pt-3">
                   <div class="col-3 col-sm-3 menu my-auto">
                     <i
-                      class="
-                        material-icons
-                        md-36
-                        mx-auto
-                        menu
-                        color-secondary
-                        my-auto
-                      "
+                      class="material-icons md-36 mx-auto menu my-auto"
+                      style="color: white"
                       >menu</i
                     >
                   </div>
                 </div>
 
-                <div
-                  class="
-                    col-6 col-md-1
-                    menu
-                    pt-0
-                    mt-0
-                    d-block d-md-none d-lg-none d-xl-none
-                  "
-                >
-                  <div class="col-3 col-sm-3 menu">
-                    <i class="material-icons md-36 mx-auto menu color-secondary"
-                      >menu</i
-                    >
-                  </div>
-                </div>
-
-                <!-- Logo Brand -->
                 <div
                   class="
                     col-sm-4 col-md-6
                     d-none d-md-block d-lg-block d-xl-block
+                    pt-5
+                    mt-2
                   "
                 >
                   <div class="col-4 col-sm-12 mb-2">
-                    <a class="navbar-brand" href="#">
+                    <a class="" href="#">
                       <v-img
                         :src="require('../assets/logos/Logo.svg')"
-                        style="max-width: 60%"
+                        style="width: 400px"
+                        class=""
                       />
                     </a>
                   </div>
                 </div>
-                <!-- Logo Brand -->
 
                 <div
                   class="
-                    col-6 col-md-6
+                    col-6 col-md-5
                     text-right
                     d-none d-md-block d-lg-block d-xl-block
+                    pt-5
+                    mt-2
                   "
                 >
                   <div class="row mt-2 pt-1">
@@ -142,7 +123,12 @@
           </p>
 
           <div class="p-3">
-            <a href="#cards" class="btn btn-normal-dark">Explorar</a>
+            <a
+              href="#cards"
+              class="btn btn-normal-dark"
+              style="border: 1px solid #fff"
+              >Explorar</a
+            >
           </div>
         </div>
       </div>
