@@ -13,15 +13,15 @@
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni,
                 sit! Voluptatibus, odio, dolores reiciendis consequatur error
                 eos aliquam nostrum aperiam voluptate laboriosam placeat
-                quisquam esse. In officia delectus modi quisquam.
+                quisquam esse.
               </p>
               <!-- <router-link to="/">Go to Home</router-link> -->
-              <a href="#" class="btn btn-normal-dark">Leer más</a>
+              <a href="#" class="btn btn-normal-dark">Ver más</a>
             </div>
           </div>
         </div>
 
-        <div class="card-l">
+        <!-- <div class="card-l">
           <div class="box">
             <div class="content">
               <h3>Solicitudes Financieras</h3>
@@ -34,9 +34,9 @@
               <a href="#" class="btn btn-normal-dark">Leer más</a>
             </div>
           </div>
-        </div>
+        </div> -->
 
-        <div class="card-l">
+        <!-- <div class="card-l">
           <div class="box">
             <div class="content">
               <h3>Solicitudes Empresariales</h3>
@@ -49,7 +49,7 @@
               <a href="#" class="btn btn-normal-dark">Leer más</a>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
     <router-view></router-view>

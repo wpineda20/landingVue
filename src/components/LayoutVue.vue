@@ -97,12 +97,12 @@
                         class="btn btn-normal-light-nav shadow-none"
                         >Solicitudes</a
                       >
-                      <a href="#" class="btn btn-normal-light-nav shadow-none"
+                      <!-- <a href="#" class="btn btn-normal-light-nav shadow-none"
                         >Contacto</a
                       >
                       <a href="#" class="btn btn-normal-light-nav shadow-none"
                         >Sobre Nosotros</a
-                      >
+                      > -->
                     </div>
                   </div>
                 </div>
