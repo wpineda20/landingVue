@@ -15,6 +15,7 @@
                 eos aliquam nostrum aperiam voluptate laboriosam placeat
                 quisquam esse. In officia delectus modi quisquam.
               </p>
+              <!-- <router-link to="/">Go to Home</router-link> -->
               <a href="#" class="btn btn-normal-dark">Leer más</a>
             </div>
           </div>
@@ -51,5 +52,6 @@
         </div>
       </div>
     </div>
+    <router-view></router-view>
   </div>
 </template>

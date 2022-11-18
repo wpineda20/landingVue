@@ -17,7 +17,7 @@
             <div class="mya">
               <v-img
                 :src="require('../assets/logos/Logo_GOES_horizontal_D.svg')"
-                style="width: 400px; margin-left: 50px"
+                style="width: 400px"
               />
             </div>
           </div>

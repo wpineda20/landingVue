@@ -52,7 +52,7 @@
           <div class="container-fluid">
             <div class="col-6 col-sm-12 col-md-12">
               <div class="row p-0 m-0">
-                <div class="col-6 col-md-1 menu my-auto pt-3">
+                <!-- <div class="col-6 col-md-1 menu my-auto pt-3">
                   <div class="col-3 col-sm-3 menu my-auto">
                     <i
                       class="material-icons md-36 mx-auto menu my-auto"
@@ -60,7 +60,7 @@
                       >menu</i
                     >
                   </div>
-                </div>
+                </div> -->
 
                 <div
                   class="
@@ -83,7 +83,7 @@
 
                 <div
                   class="
-                    col-6 col-md-5
+                    col-6 col-md-6
                     text-right
                     d-none d-md-block d-lg-block d-xl-block
                     pt-5
