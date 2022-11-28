@@ -43,7 +43,7 @@
             <div class="col-6 col-sm-12 col-md-12">
               <div class="row p-0 m-0">
                 <!-- Nav button  -->
-                <div class="col-6 col-md-1 menu my-auto">
+                <!-- <div class="col-6 col-md-1 menu my-auto">
                   <div class="col-3 col-sm-3 menu my-auto">
                     <i
                       class="
@@ -57,7 +57,7 @@
                       >menu</i
                     >
                   </div>
-                </div>
+                </div> -->
                 <!-- Nav button  -->
                 <!-- Nav button Phone -->
                 <!-- <div
@@ -116,7 +116,7 @@
                 <!-- Logo brand -->
                 <!-- <div
                   class="
-                    col-6 col-md-5
+                    col-6 col-md-6
                     text-right
                     d-none d-md-block d-lg-block d-xl-block
                     my-auto
@@ -124,27 +124,10 @@
                 >
                   <div class="row">
                     <div class="col-md-12 text-end pt-0">
-                      <a href="" class="btn btn-normal-nav shadow-none"
-                        >Iniciar sesión</a
-                      >
-                    </div>
-                  </div>
-                </div> -->
-                <!-- <div
-                  class="
-                    col-6 col-md-6
-                    text-right
-                    d-none d-md-block d-lg-block d-xl-block
-                    pt-5
-                    mt-2
-                  "
-                >
-                  <div class="row mt-2 pt-1">
-                    <div class="col-md-12 text-end">
-                      <a
-                        href="#cards"
-                        class="btn btn-normal-light-nav shadow-none"
-                        >Solicitudes</a
+                      <router-link
+                        to="/login"
+                        class="btn btn-normal-nav shadow-none"
+                        >Iniciar sesión</router-link
                       >
                     </div>
                   </div>
@@ -158,7 +141,8 @@
 
       <!-- Main -->
       <main class="main content py-4">
-        <ContentVue />
+        <router-view></router-view>
+        <!-- <ContentVue /> -->
       </main>
       <!-- Main -->
 
@@ -173,11 +157,14 @@
 
 <script>
 import FooterVue from "./FooterVue.vue";
-import ContentVue from "./ContentVue.vue";
+
 export default {
+  data() {},
+
+  name: "app",
+
   components: {
     FooterVue,
-    ContentVue,
   },
   props: {
     msg: String,

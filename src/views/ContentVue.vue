@@ -15,17 +15,19 @@
         </h4>
       </div>
       <div class="cards-section-body">
-        <div class="card-requests shadow">
-          <div class="card-icon p-2">
-            <v-img
-              :src="require('../assets/logos/theater-masks-solid.svg')"
-              class="icon-w"
-            />
+        <router-link to="/solicitudes">
+          <div class="card-requests shadow">
+            <div class="card-icon p-2">
+              <v-img
+                :src="require('../assets/logos/theater-masks-solid.svg')"
+                class="icon-w"
+              />
+            </div>
+            <div class="card-title text-center p-2">
+              <p class="mb-0">Solicitud de espacios teatrales</p>
+            </div>
           </div>
-          <div class="card-title text-center p-2">
-            <p class="mb-0">Solicitud de espacios teatrales</p>
-          </div>
-        </div>
+        </router-link>
       </div>
     </div>
   </div>
