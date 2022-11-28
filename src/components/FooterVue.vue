@@ -4,7 +4,16 @@
     <footer class="footer bg-gray mt-2 p-2">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-xs-12 col-sm-12 text-center my-auto col-md-3">
+          <div
+            class="
+              col-12 col-xs-12 col-sm-12
+              text-center
+              my-auto
+              col-md-3
+              pt-2
+              pb-2
+            "
+          >
             <a
               class="mya my-auto footer-text"
               href="https://www.cultura.gob.sv"
@@ -14,14 +23,21 @@
             </a>
           </div>
           <div class="col-12 col-xs-12 col-sm-12 text-center my-auto col-md-6">
-            <div class="mya">
-              <v-img
-                :src="require('../assets/logos/Logo_GOES_horizontal_D.svg')"
-                style="width: 400px"
-              />
-            </div>
+            <v-img
+              :src="require('../assets/logos/Logo_GOES_horizontal_D.svg')"
+              style="width: 400px; margin: auto"
+            />
           </div>
-          <div class="col-12 col-xs-12 col-sm-12 text-center my-auto col-md-3">
+          <div
+            class="
+              col-12 col-xs-12 col-sm-12
+              text-center
+              my-auto
+              col-md-3
+              pt-2
+              pb-2
+            "
+          >
             <div class="mya footer-text" @click="dialog = true">
               Políticas de privacidad
             </div>

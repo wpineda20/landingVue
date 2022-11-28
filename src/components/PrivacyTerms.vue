@@ -1,8 +1,7 @@
 <template>
   <div class="container p-4">
     <p style="text-align: justify; background: white">
-      <span
-        style="font-size: 15px; font-family: 'Museo sans', serif; color: black"
+      <span style="font-size: 15px; color: black"
         >El Ministerio de Cultura de El Salvador con el fin de salvaguardar la
         privacidad de la información personal del usuario y/o ciudadano en
         cumplimiento a lo establecido en la Ley de Cultura, cuyo Art. 91

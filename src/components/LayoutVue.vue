@@ -21,67 +21,116 @@
           </li>
           <!-- Requests -->
 
-          <!-- Contact -->
-          <li class="text-center pb-1">
-            <a href="#" class="text-center">
-              <i class="material-icons md-18 mx-auto">home</i>
+          <!-- Logout -->
+          <!-- <li class="text-center pb-1">
+            <a href="" class="text-center">
+              <i class="material-icons md-18 mx-auto">logout</i>
             </a>
-            <a href="#">
-              <p class="link mx-auto">Contacto</p>
-            </a>
-          </li>
-          <!-- Contact -->
 
-          <!-- About us -->
-          <li class="text-center pb-1">
-            <a href="#" class="text-center">
-              <i class="material-icons md-18 mx-auto">home</i>
+            <a href="">
+              <p class="link mx-auto">Cerrar sesión</p>
             </a>
-            <a href="#">
-              <p class="link mx-auto">Sobre Nosotros</p>
-            </a>
-          </li>
-          <!-- About us -->
+          </li> -->
+          <!-- Logout -->
         </ul>
       </div>
       <!-- Sidebar -->
 
       <!-- Home Section -->
-      <div class="banner home-section">
+      <div class="home-section">
         <div class="home-content pt-5 pb-5">
           <div class="container-fluid">
             <div class="col-6 col-sm-12 col-md-12">
               <div class="row p-0 m-0">
-                <!-- <div class="col-6 col-md-1 menu my-auto pt-3">
+                <!-- Nav button  -->
+                <div class="col-6 col-md-1 menu my-auto">
                   <div class="col-3 col-sm-3 menu my-auto">
                     <i
-                      class="material-icons md-36 mx-auto menu my-auto"
-                      style="color: white"
+                      class="
+                        material-icons
+                        md-36
+                        mx-auto
+                        menu
+                        color-secondary
+                        my-auto
+                      "
+                      >menu</i
+                    >
+                  </div>
+                </div>
+                <!-- Nav button  -->
+                <!-- Nav button Phone -->
+                <!-- <div
+                  class="
+                    col-6 col-md-1
+                    menu
+                    pt-0
+                    mt-0
+                    d-block d-md-none d-lg-none d-xl-none
+                  "
+                >
+                  <div class="col-3 col-sm-3 menu">
+                    <i class="material-icons md-36 mx-auto menu color-secondary"
                       >menu</i
                     >
                   </div>
                 </div> -->
+                <!-- Nav button Phone -->
 
+                <!-- Institution Name -->
+                <!-- <div
+                  class="
+                    col-sm-4 col-md-6
+                    d-none d-md-block d-lg-block d-xl-block
+                  "
+                >
+                  <div class="col-4 col-sm-12">
+                    <a class="navbar-brand" href="">
+                      <h3 class="pt-5 fw-bold color-secondary mb-0">
+                        Sistema de Solicitudes
+                      </h3>
+                    </a>
+                  </div>
+                </div> -->
+                <!-- Institution Name -->
+
+                <!-- Logo brand -->
                 <div
                   class="
                     col-sm-4 col-md-6
                     d-none d-md-block d-lg-block d-xl-block
-                    pt-5
-                    mt-2
+                    pt-2
                   "
                 >
                   <div class="col-4 col-sm-12 mb-2">
                     <a class="" href="#">
                       <v-img
-                        :src="require('../assets/logos/Logo.svg')"
-                        style="width: 400px"
-                        class=""
+                        :src="
+                          require('../assets/logos/Logo_GOES_horizontal_D.svg')
+                        "
+                        style="width: 370px"
                       />
                     </a>
                   </div>
                 </div>
-
-                <div
+                <!-- Logo brand -->
+                <!-- <div
+                  class="
+                    col-6 col-md-5
+                    text-right
+                    d-none d-md-block d-lg-block d-xl-block
+                    my-auto
+                  "
+                >
+                  <div class="row">
+                    <div class="col-md-12 text-end pt-0">
+                      <a href="" class="btn btn-normal-nav shadow-none"
+                        >Iniciar sesión</a
+                      >
+                    </div>
+                  </div>
+                </div> -->
+                <!-- <div
                   class="
                     col-6 col-md-6
                     text-right
@@ -97,38 +146,11 @@
                         class="btn btn-normal-light-nav shadow-none"
                         >Solicitudes</a
                       >
-                      <!-- <a href="#" class="btn btn-normal-light-nav shadow-none"
-                        >Contacto</a
-                      >
-                      <a href="#" class="btn btn-normal-light-nav shadow-none"
-                        >Sobre Nosotros</a
-                      > -->
                     </div>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
-          </div>
-        </div>
-        <div class="banner-content">
-          <span class="text-white text-center first-title">
-            Landing page de <span class="first-title-bold">solicitudes</span>
-          </span>
-          <span class="text-white text-center second-title">
-            Lorem ipsum <span class="second-title-bold">dolor sit amet</span>
-          </span>
-          <p class="text-center text-white">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-            Doloremque velit doloribus
-          </p>
-
-          <div class="p-3">
-            <a
-              href="#cards"
-              class="btn btn-normal-dark"
-              style="border: 1px solid #fff"
-              >Explorar</a
-            >
           </div>
         </div>
       </div>
